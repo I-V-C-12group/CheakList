@@ -87,7 +87,7 @@
         </nav>
     
         <div class="px-4 py-2 my-5 text-center">
-            <h1>지금 가장 많이 읽고 있는 도서를 확인하세요.</h1>
+            <h1>지금 가장 많이 읽고 있는 도서를 확인하실래요?.</h1>
             <div class="col-lg-6 mx-auto">
                 <p class="lead mb-4">
                     <br>
@@ -103,20 +103,7 @@
         </div>
 
         
-    <!-- Cards -->
-    <div class="row row-cols-1 row-cols-md-4 g-4 mx-auto w-75 pb-5">
-        {% for book in data %}
-        <div class="col">
-            <div class="card h-100">
-                <img src="{{ book.img_url }}" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">{{ book.title }}</h5>
-                    <p class="card-text">{{ book.writers }}</p>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
+   
         
 
     <div class="container">
